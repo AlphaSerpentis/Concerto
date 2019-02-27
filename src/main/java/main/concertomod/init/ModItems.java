@@ -11,5 +11,6 @@ public class ModItems {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	public static final Item TESTING_STICK = new ItemBase("concerto_stick");
+	public static final Item SAXOPHONE = new ItemBase("saxophone");
 	
 }
