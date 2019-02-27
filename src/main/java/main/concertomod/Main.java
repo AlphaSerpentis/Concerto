@@ -1,5 +1,6 @@
 package main.concertomod;
 
+import main.concertomod.init.ModItems;
 import main.concertomod.proxy.CommonProxy;
 import main.concertomod.util.Reference;
 
@@ -22,6 +23,8 @@ public class Main {
 	
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event) {
+		
+		
 		
 	}
 	
