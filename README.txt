@@ -1,3 +1,8 @@
+==============================
+Concerto Mod Note:
+
+Do not expect high-quality from this mod. Criticism is greatly appreciated. We're both trying to learn.
+==============================
 -------------------------------------------
 Source installation information for modders
 -------------------------------------------
