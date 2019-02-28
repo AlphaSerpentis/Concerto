@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "R  ",
+        "G G",
+        "GGG"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "cm:reed"
+        },
+        "G":
+        {
+        	"item": "minecraft:gold_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "cm:saxophone",
+        "count": 1
+    }
+}

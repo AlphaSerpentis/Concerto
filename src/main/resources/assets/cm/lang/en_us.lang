@@ -1,2 +1,5 @@
 item.concerto_stick.name=Concerto Stick
 item.saxophone.name=Saxophone
+item.clarinet.name=Clarinet
+item.reed.name=Reed
+item.instrument_case.name=Instrument Case

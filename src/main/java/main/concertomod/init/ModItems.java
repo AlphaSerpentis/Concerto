@@ -10,7 +10,15 @@ public class ModItems {
 
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
+	//Misc
 	public static final Item TESTING_STICK = new ItemBase("concerto_stick");
+
+	//Instruments
 	public static final Item SAXOPHONE = new ItemBase("saxophone");
+	public static final Item CLARINET = new ItemBase("clarinet"); //TODO: Implement
+	
+	//Materials
+	public static final Item REED = new ItemBase("reed"); //TODO: Implement
+	public static final Item INSTRUMENT_CASE = new ItemBase("instrument_case"); //TODO: Implement
 	
 }
