@@ -22,4 +22,7 @@ public class ModItems {
 	public static final Item REED = new ItemBase("reed"); //TODO: Implement
 	public static final Item INSTRUMENT_CASE = new ItemBase("instrument_case"); //TODO: Implement
 	
+	//Armor
+	//TODO: Add tuba armor
+	
 }
