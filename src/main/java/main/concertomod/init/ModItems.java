@@ -12,6 +12,7 @@ public class ModItems {
 	
 	//Misc
 	public static final Item TESTING_STICK = new ItemBase("concerto_stick");
+	public static final Item INSTRUMENT_CASE = new ItemBase("instrument_case"); //TODO: Implement
 
 	//Instruments
 	public static final Item SAXOPHONE = new ItemBase("saxophone");
@@ -20,7 +21,6 @@ public class ModItems {
 	
 	//Materials
 	public static final Item REED = new ItemBase("reed"); //TODO: Implement
-	public static final Item INSTRUMENT_CASE = new ItemBase("instrument_case"); //TODO: Implement
 	
 	//Armor
 	//TODO: Add tuba armor

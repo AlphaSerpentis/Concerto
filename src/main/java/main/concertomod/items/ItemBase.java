@@ -10,9 +10,32 @@ public class ItemBase extends Item implements IHasModel {
 
 	public ItemBase(String name) {
 		
+		String[] Materials = {"reed"};
+		String[] Tools = {"saxophone", "clarinet", "flute"};
+		String[] Misc = {"concerto_stick", "instrument_case"};
+		
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.TOOLS);
+		
+		for(String item: Materials)
+			if(item.equals(name)) {
+				setCreativeTab(CreativeTabs.MATERIALS);
+				break;
+			}
+		
+		for(String item: Tools)
+			if(item.equals(name)) {
+				setCreativeTab(CreativeTabs.TOOLS);
+				break;
+			}
+		
+		for(String item: Misc)
+			if(item.equals(name)) {
+				setCreativeTab(CreativeTabs.MISC);
+				break;
+			}
+		
+		//setCreativeTab(CreativeTabs.TOOLS);
 		
 		ModItems.ITEMS.add(this);
 		
