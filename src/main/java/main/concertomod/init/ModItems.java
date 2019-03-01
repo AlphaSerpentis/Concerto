@@ -16,6 +16,7 @@ public class ModItems {
 	//Instruments
 	public static final Item SAXOPHONE = new ItemBase("saxophone");
 	public static final Item CLARINET = new ItemBase("clarinet"); //TODO: Implement
+	public static final Item FLUTE = new ItemBase("flute"); //TODO: Implement
 	
 	//Materials
 	public static final Item REED = new ItemBase("reed"); //TODO: Implement
