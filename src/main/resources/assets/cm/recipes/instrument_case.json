@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " S ",
+        "LCL",
+        "LLL"
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:stick"
+        },
+        "C":
+        {
+        	"item": "minecraft:chest"
+        },
+        "L":
+        {
+        	"item": "minecraft:leather"
+        }
+    },
+    
+    "result":
+    {
+        "item": "cm:instrument_case",
+        "count": 1
+    }
+}
