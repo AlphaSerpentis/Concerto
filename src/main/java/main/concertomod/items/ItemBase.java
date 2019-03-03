@@ -12,7 +12,8 @@ public class ItemBase extends Item implements IHasModel {
 		
 		String[] Materials = {"reed"};
 		String[] Tools = {"saxophone", "clarinet", "flute"};
-		String[] Misc = {"concerto_stick", "instrument_case"};
+		String[] Misc = {"concerto_stick"};
+		
 		
 		setUnlocalizedName(name);
 		setRegistryName(name);
@@ -26,6 +27,7 @@ public class ItemBase extends Item implements IHasModel {
 		for(String item: Tools)
 			if(item.equals(name)) {
 				setCreativeTab(CreativeTabs.TOOLS);
+				this.setMaxStackSize(1);
 				break;
 			}
 		
